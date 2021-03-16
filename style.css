@@ -1,0 +1,77 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.page-header  {
+    display: flex;
+}
+.main-menu {
+    flex-grow: 1;
+}
+.main-menu-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.main-menu-list a {
+    font-size: 20px;
+    line-height: 41px;
+    color: #2a3d8f;
+    
+}
+.main-menu-list a:hover {
+    color: red;
+}
+.page-footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 35px 0;
+    background-color: brown;
+
+}
+.copyright, .footer-social, .hashtag {
+    margin: 0;
+}
+.hashtag {
+    font-size: 21px;
+    font-weight: 700;
+}
+.footer-social {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+.social-button {
+    margin: 10px;
+}
+.copyright {
+    font-size: 14px;
+}
+.wrapper {
+    background-color: brown;
+}
+.slogan {
+    background-image: url(img/img/innsbruck1.png);
+    height: 550px;
+}
+.slogan h1 {
+    font-size: 60px;
+    color: white;
+    padding-top: 240px;
+    height: 950px;
+}
+h2 {
+    color: blue;
+    font-size: 30px;
+}
+h3 {
+    font-size: 30px;
+}
